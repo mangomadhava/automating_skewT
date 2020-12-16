@@ -1,16 +1,14 @@
-## Automating Calulations of Unreported Meterological Elements
+## Automating Calulations and Plotting of Unreported Meterological Elements
 
 ### Install
-Download the project as a zip file. Make sure packages and python are installed. The
-packages needed are: (many of these come with standard python installation)
-1. matplotlib
-2. pandas
-3. metpy
-4. bs4
-5. numpy
-6. requests
-7. sys
-8. math
+Download the project as a zip file by clicking on the green button above. Make sure packages and python are installed. These can be installed using the pip command. The packages needed are (some of these come with standard python installation): 
+1. matplotlib: https://pypi.org/project/matplotlib/
+2. metpy: https://pypi.org/project/MetPy/
+4. bs4: https://pypi.org/project/beautifulsoup4/
+3. numpy: https://pypi.org/project/numpy/
+4. requests: https://pypi.org/project/requests/
+5. sys
+6. math
 
 ### How to use skewT_plotter.py
 First format your input .txt file as follows: 
@@ -67,9 +65,13 @@ python skewT_plotter.py example.txt
 It should run and the output should save to a file called *skewt_plot_1.png* and it should look like: 
 ![alt text](https://github.com/mangomadhava/automating_skewT/blob/main/skewt_plots_1.png)
 
-
+Other examples are included in the directory. 
 
 #### Explanation of files: 
 1. **plotting.py**: This file handles all the plotting using metypy and matplotlib. Examples of how to plot directly are in the examples.ipynb notebook. 
 2. **calculations.py**: This file handles the calculations needed for computing different values on the skewT graph. Most of the functions are calls to the metpy calculations libary. Examples using the calculation are also in the examples.ipynb notebook. 
-3. **skewT_plotter.py**: This file handles the parsing of the input text and runs the program if not using the GUI. It reads through the intput text and calls the correct functions in plotting.py to display the correct lines needed for deriving a calculation using the skewT.
+3. **skewT_plotter.py**: This file handles the parsing of the input text and runs the program. It reads through the intput text and calls the correct functions in plotting.py to display the correct lines needed for deriving a calculation using the skewT.
+
+Aknowledgments: 
+https://atmos.washington.edu/~mcmurdie/classes/370/skew-t/Skew-T.pdf
+This project was done as a final project for AOSC 431. 
