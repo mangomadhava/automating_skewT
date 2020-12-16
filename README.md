@@ -1,16 +1,15 @@
-## Automating Calulations of Unreported Meterological Elements
+## Automating Calulations and Plotting of Unreported Meterological Elements
 
 ### Install
 Download the project as a zip file by clicking on the green button above. Make sure packages and python are installed. The
-packages needed are: (many of these come with standard python installation)
-1. matplotlib
-2. pandas
-3. metpy
-4. bs4
-5. numpy
-6. requests
-7. sys
-8. math
+packages needed are: (some of these come with standard python installation)
+1. matplotlib: https://pypi.org/project/matplotlib/
+2. metpy: https://pypi.org/project/MetPy/
+4. bs4: https://pypi.org/project/beautifulsoup4/
+3. numpy: https://pypi.org/project/numpy/
+4. requests: https://pypi.org/project/requests/
+5. sys
+6. math
 
 ### How to use skewT_plotter.py
 First format your input .txt file as follows: 
