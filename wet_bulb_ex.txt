@@ -1,0 +1,4 @@
+*plot*
+sounding most recent
+wetbulb 600 20 11.5
+pwetbulb 500 0 -10
