@@ -1,7 +1,7 @@
 ## Automating Calulations of Unreported Meterological Elements
 
 ### Install
-Download the project as a zip file. Make sure packages and python are installed. The
+Download the project as a zip file by clicking on the green button above. Make sure packages and python are installed. The
 packages needed are: (many of these come with standard python installation)
 1. matplotlib
 2. pandas
