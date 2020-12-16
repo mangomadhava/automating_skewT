@@ -67,7 +67,7 @@ python skewT_plotter.py example.txt
 It should run and the output should save to a file called *skewt_plot_1.png* and it should look like: 
 ![alt text](https://github.com/mangomadhava/automating_skewT/blob/main/skewt_plots_1.png)
 
-
+Other examples are included in the directory. 
 
 #### Explanation of files: 
 1. **plotting.py**: This file handles all the plotting using metypy and matplotlib. Examples of how to plot directly are in the examples.ipynb notebook. 
