@@ -72,5 +72,6 @@ Other examples are included in the directory.
 2. **calculations.py**: This file handles the calculations needed for computing different values on the skewT graph. Most of the functions are calls to the metpy calculations libary. Examples using the calculation are also in the examples.ipynb notebook. 
 3. **skewT_plotter.py**: This file handles the parsing of the input text and runs the program. It reads through the intput text and calls the correct functions in plotting.py to display the correct lines needed for deriving a calculation using the skewT.
 
-
+Aknowledgments: 
+https://atmos.washington.edu/~mcmurdie/classes/370/skew-t/Skew-T.pdf
 This project was done as a final project for AOSC 431. 
