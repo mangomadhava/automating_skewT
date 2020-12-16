@@ -87,7 +87,7 @@ def Plot_skewT():
     #If they checked saturation mixing ratio
     if var3.get()==1:
         ws = ws_box.get() #ws is variable name for saturated mixing ratio input values
-        plot_object.plot_saturation_mixing_ratio(w)
+        plot_object.plot_saturation_mixing_ratio(ws)
     #If they checked relative humidity
     if var4.get()==1:
         RH = RH_box.get() #RH is variable name for relative humidity input values
@@ -104,7 +104,7 @@ def Plot_skewT():
     #If they checked wet-bulb potential temp
     if var7.get()==1:
         WBP = WBP_box.get() #WBP is variable name for wet bulb potential temp input values
-        plot_object.plot_potential_wetbulb_temp(WB)
+        plot_object.plot_potential_wetbulb_temp(WBP)
     #If they checked potential temp
     if var8.get()==1:
         PT = PT_box.get() #PT is variable name for potential temp input values
