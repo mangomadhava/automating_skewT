@@ -65,7 +65,7 @@ If the following text is saved as *example.txt*, run the program by using the co
 python skewT_plotter.py example.txt 
 ```
 It should run and the output should save to a file called *skewt_plot_1.png* and it should look like: 
-
+![alt text](https://github.com/mangomadhava/automating_skewT/blob/main/skewt_plots_1.png)
 
 
 
