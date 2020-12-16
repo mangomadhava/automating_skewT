@@ -9,6 +9,8 @@ Download the project as a zip file by clicking on the green button above. Make s
 4. requests: https://pypi.org/project/requests/
 5. sys
 6. math
+7. tkinter
+8. Pillow: https://pypi.org/project/Pillow/2.2.2/
 
 ### Two ways to run the project: 
 1. Run using the GUI: (Easiest)
