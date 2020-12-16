@@ -10,6 +10,15 @@ Download the project as a zip file by clicking on the green button above. Make s
 5. sys
 6. math
 
+### Two ways to run the project: 
+1. Run using the GUI: (Easiest)
+```
+python gui.py
+```
+
+OR use skewT_plotter.py using the steps below: 
+
+
 ### How to use skewT_plotter.py
 First format your input .txt file as follows: 
 For entering manual sounding data, type \*data\* followed by pressures, temperatures, and dewpoints like shown below. **All inputs must be in hectopascals or degree Celsius.** 
