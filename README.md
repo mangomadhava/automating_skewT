@@ -1,8 +1,7 @@
 ## Automating Calulations and Plotting of Unreported Meterological Elements
 
 ### Install
-Download the project as a zip file by clicking on the green button above. Make sure packages and python are installed. The
-packages needed are: (some of these come with standard python installation)
+Download the project as a zip file by clicking on the green button above. Make sure packages and python are installed. These can be installed using the pip command. The packages needed are (some of these come with standard python installation): 
 1. matplotlib: https://pypi.org/project/matplotlib/
 2. metpy: https://pypi.org/project/MetPy/
 4. bs4: https://pypi.org/project/beautifulsoup4/
