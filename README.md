@@ -1,5 +1,7 @@
 ## Automating Calulations and Plotting of Unreported Meterological Elements
 
+![alt text](https://github.com/mangomadhava/automating_skewT/blob/main/skewt_plots_1.png)
+
 ### Install
 Download the project as a zip file by clicking on the green button above. Make sure packages and python are installed. These can be installed using the pip command. The packages needed are (some of these come with standard python installation): 
 1. matplotlib: https://pypi.org/project/matplotlib/
@@ -12,8 +14,8 @@ Download the project as a zip file by clicking on the green button above. Make s
 7. tkinter
 8. Pillow: https://pypi.org/project/Pillow/2.2.2/
 
-### Two ways to run the project: 
-1. Run using the GUI: (Easiest)
+### Easiest way to run the project: 
+1. Run using the GUI, simply run the command: 
 ```
 python gui.py
 ```
@@ -21,7 +23,7 @@ python gui.py
 OR use skewT_plotter.py using the steps below: 
 
 
-### How to use skewT_plotter.py
+### If you want to run without the GUI: use skewT_plotter.py
 First format your input .txt file as follows: 
 For entering manual sounding data, type \*data\* followed by pressures, temperatures, and dewpoints like shown below. **All inputs must be in hectopascals or degree Celsius.** 
 ```
